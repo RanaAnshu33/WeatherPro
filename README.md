@@ -8,60 +8,61 @@ It fetches real-time weather data using the WeatherAPI, presenting it through an
 
 <h1>Features</h1>
 
-City-Based Weather Search
+<h1>City-Based Weather Search Features</h1>
+  <ul>
+    <li><strong>City-Based Weather Search</strong>
+      <ul>
+        <li>Enter any city name to get real-time weather data</li>
+        <li>Supports Enter key and search button click</li>
+      </ul>
+    </li>
+    <li><strong>Real-Time Weather Data</strong>
+      <ul>
+        <li>Location name and country</li>
+        <li>Temperature (°C)</li>
+        <li>Feels like temperature</li>
+        <li>Humidity</li>
+        <li>Wind speed</li>
+        <li>Visibility</li>
+        <li>Pressure</li>
+        <li>Cloudiness</li>
+        <li>UV Index</li>
+        <li>Heat Index</li>
+        <li>Weather condition description and icon</li>
+      </ul>
+    </li>
+    <li><strong>Dynamic Weather Icons</strong>
+      <ul>
+        <li>Automatically updates icons based on weather conditions (sunny, cloudy, foggy, rain, etc.)</li>
+      </ul>
+    </li>
+    <li><strong>Fully Responsive Design</strong>
+      <ul>
+        <li>Optimized for desktop, tablet, and mobile devices</li>
+        <li>Smooth animations and adaptive card layout</li>
+      </ul>
+    </li>
+    <li><strong>Custom Loader</strong>
+      <ul>
+        <li>Loading spinner with blur background while fetching data</li>
+      </ul>
+    </li>
+    <li><strong>Good Error Handling</strong>
+      <ul>
+        <li>Empty input validation</li>
+        <li>Invalid input handling (e.g. numbers or too short)</li>
+        <li>City not found handling</li>
+        <li>Network error alerts</li>
+        <li>Timeout handling using AbortController</li>
+        <li>Graceful fallback for API errors</li>
+      </ul>
+    </li>
+  </ul>
 
-Enter any city name to get real-time weather data.
+<h1>Developer Journey</h1>
+<p>When I started this project, I struggled a lot with API handling. Initially, I could only fetch and display data without any kind of input validation, error catching, or loading feedback.
 
-.Supports Enter key and click search.
+But I soon realized this was not enough for a good user experience. So I went back and improved every part of the app:</p>
+<p>"Implemented comprehensive input validation, including checks for empty input, insufficient length, and numeric entries. Utilized try...catch blocks for robust error handling and integrated AbortController to manage request timeouts effectively. Designed detailed, user-friendly error messages to provide clear feedback, all while maintaining a responsive and user-centric design for an optimal experience across devices."</p>
 
-.Real-Time Weather Data
-
-.Location name and country
-
-.Temperature (°C)
-
-.Feels like
-
-.Humidity
-
-.Wind speed
-
-.Visibility
-
-.Pressure
-
-.Cloudiness
-
-.UV Index
-
-.Heat Index
-
-.Weather condition description and icon
-
-.Dynamic Weather Icons
-
-.Automatically changes weather icons based on condition (sunny, cloudy, foggy, rain, etc.)
-
-.Fully Responsive Design
-
-.Optimized layout for desktop, tablet, and mobile
-
-.Smooth animations and adaptive card layout
-
-.Custom Loader
-
-.Loading spinner with blur background while fetching data
-
-.Good Error Handling
-
-.Empty input
-
-.Invalid input (e.g. numbers or too short)
-
-.City not found
-
-.Network issues
-
-.Timeout via AbortController
-
-.API errors with fallback
+<p>This app is a great experience in my frontend learning path.</p>
