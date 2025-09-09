@@ -1,7 +1,6 @@
 <h1>WeatherPro, A Professional Weather App</h1>
 
-<p>WeatherPro is a weather application built with HTML, CSS, and JavaScript.
-It fetches real-time weather data using the WeatherAPI, presenting it through an elegant user interface done by animations, loading effects, and error handling.</p>
+<p>WeatherPro is a modern weather application developed using HTML, CSS, and JavaScript. It retrieves real-time weather data via the WeatherAPI and delivers a seamless user experience through a polished interface enhanced with animations, loading effects, and robust error handling.</p>
 
 <h1>Screenshot</h1>
 <img width="1150" height="895" alt="Screenshot" src="https://github.com/user-attachments/assets/015b6083-2450-4fb4-af23-13b2faac103c" />
